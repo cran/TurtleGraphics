@@ -1,5 +1,5 @@
 ##    TurtleGraphics package for R
-##    Copyright (C) 2014 Rexamine
+##    Copyright (C) 2014-2017 A.Cena, M.Gagolewski, B.Zogala-Siudem, and others
 ##
 ##    This program is free software: you can redistribute it and/or modify
 ##    it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
 #'
 #' @details
 #' Move the Turtle with commands that are relative
-#' to its own position, e.g. "move forward 100 pixels" or
+#' to its own position, e.g., "move forward 100 pixels" or
 #' "turn right 30 degrees". From these building blocks you can build
 #' more complex shapes like circles, fractals, etc.
 #' Combined with R control flow, functions, and recursion,
@@ -35,8 +35,8 @@
 #' Marcin Kosinski [aut]\cr
 #' Natalia Potocka [aut]
 #' Barbara Zogala-Siudem [aut, cre]
-#' 
-#' 
+#'
+#'
 #' @family TurtleGraphics
 #' @name TurtleGraphics-package
 #' @docType package
@@ -49,4 +49,5 @@
 #' @importFrom grid grid.circle
 #' @importFrom grid grid.rect
 #' @importFrom grid grid.lines
+#' @importFrom grDevices col2rgb
 invisible(NULL)
