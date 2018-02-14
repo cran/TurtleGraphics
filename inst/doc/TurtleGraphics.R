@@ -42,7 +42,7 @@ opts_chunk$set(
    fig.height=6/sqrt(3),
 #    fig.path='figures-knitr/',
 #    cache.path='cache-knitr/',
-   cache=TRUE,
+   cache=FALSE,
    tidy=FALSE,
 #    dev='cairo_pdf',
 #    dev.args=list(pointsize=11),
@@ -221,7 +221,7 @@ turtle_square <- function(r) {
    }
 }
 
-## ----fig.keep='last',dependson='fun1'----------------------------------
+## ----fig.keep='last'---------------------------------------------------
 turtle_init()
 turtle_square(10)
 turtle_left(90)
